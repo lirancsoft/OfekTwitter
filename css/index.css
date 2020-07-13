@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A64EB;
+    margin-bottom: 2%;
+}
+
+.navbar-button {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    text-shadow: 0.1vw 0.1vh 0.2vw #000000;
+}
+
+.navbar-button:hover {
+    background-color: #689FF1;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-img {
+    width: 3em;
+    padding: 0.3em;
+    box-sizing: border-box;
+}
+
+.logo-img:hover {
+    background-color: #689FF1;
+}
+
+.logo-button {
+    font-size: x-large;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions-button {
+    margin-left: 1.5vw;
+    font-size: medium;
+}
+
+.content-container {
+    display: flex;
+    padding: 0 10% 0 10%;
+}
+
+.filter {
+    margin-bottom: 2%;
+}
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    width: 11em;
+    height: 12em;
+    box-sizing: border-box;
+    border: 3px solid #E4E4E4;
+    border-radius: 2%;
+    align-items: center;
+    margin: 0 0 1% 1%;
+}
+
+.user-avatar {
+    width: 5em;
+    margin: 10% 0 3% 0;
+    border-radius: 5%;
+}
+
+.follow-button {
+    width: 6em;
+    margin-bottom: 8%;
+}
+
+.followees-container {
+    display: flex;
+    flex-flow: column wrap;
+    border: 5px solid #E4E4E4;
+    border-radius: 2%;
+    margin-top: 3%;
+    align-items: center;
+    min-width: 20em;
+    height: fit-content;
+}
+
+.followees-container-title {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 4% 0 4% 0;
+}
+
+.followees-container .user {
+    margin: 0 0 2% 0;
+}
