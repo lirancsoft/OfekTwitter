@@ -28,7 +28,7 @@ body {
 
 .logo-img {
     width: 3em;
-    padding: 0.3em;
+    padding: 3%;
     box-sizing: border-box;
 }
 
@@ -51,7 +51,7 @@ body {
 
 .content-container {
     display: flex;
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
 }
 
 .filter {
@@ -82,13 +82,13 @@ body {
 }
 
 .follow-button {
-    width: 6em;
+    width: 50%;
     margin-bottom: 8%;
 }
 
 .followees-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     border: 5px solid #E4E4E4;
     border-radius: 2%;
     margin-top: 3%;
@@ -100,7 +100,7 @@ body {
 .followees-container-title {
     font-size: x-large;
     font-weight: bold;
-    margin: 4% 0 4% 0;
+    margin: 4% 0;
 }
 
 .followees-container .user {
